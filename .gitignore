@@ -129,4 +129,5 @@ dmypy.json
 .pyre/
 
 # External files
-secrets.ini
+config.ini
+.breakpoints
