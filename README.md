@@ -1,6 +1,6 @@
 # The RealityCheckBot - A Fact-Checking Reddit Bot
 
-Our aim is to bring a bit more context to comment threads of social media. Invoking `/RealityCheck` (or `/RealityCheck additional claim here`) will submit the parent comment or post to RealityCheck where it'll be broken down into a list of logical "claims" that can be individually validated, via fact-checking services online, and posted in an organized reply with links to relavant articles, sites etc.  
+Project's aim is to bring a bit more context to comment threads of social media. Invoking `/RealityCheck` (or `/RealityCheck additional claim here`) will submit the parent comment or post to RealityCheck where it'll be broken down into a list of logical "claims" that can be individually validated, via fact-checking services online, and posted in an organized reply with links to relavant articles, sites etc.  
 
 ## Getting Started
 
