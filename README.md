@@ -1,10 +1,10 @@
-# The FurReelBot - A Fact-Checking Reddit Bot
+# The RealityCheckBot - A Fact-Checking Reddit Bot
 
-Welcome to The FurReelBot project! This Python-based Reddit bot aims to bring a bit more factuality to the world of social media. It listens for mentions in Reddit comments and uses powerful AI tools like OpenAI's GPT and the ClaimBuster API to fact-check claims.
+Our aim is to bring a bit more context to comment threads of social media. Invoking `/RealityCheck` (or `/RealityCheck additional claim here`) will submit the parent comment or post to RealityCheck where it'll be broken down into a list of logical "claims" that can be individually validated, via fact-checking services online, and posted in an organized reply with links to relavant articles, sites etc.  
 
 ## Getting Started
 
-To get started with FurRealBot, follow these steps:
+To get started with RealityCheckBot, follow these steps:
 
 1. Ensure you have a suitable version of Python installed (3.8 or newer is recommended).
 
@@ -16,11 +16,11 @@ To get started with FurRealBot, follow these steps:
 
 4. Obtain your Reddit API keys by creating a Reddit application. (see instructions [here](#obtain-client-id-and-secret-from-reddit))
 
-5. Rename the `secrets.sample.ini` file to `secrets.ini` and fill in your API keys in the appropriate fields.
+5. Rename the `config.sample.ini` file to `config.ini` and fill in your API keys in the appropriate fields.
 
 6. Run the bot using the command:
 
-`python furreelbot.py`
+`python realityCheckBot.py`
 
 ## Obtain Client ID and Secret from Reddit
 
@@ -52,4 +52,4 @@ This project is open-source, licensed under the MIT License. See the `LICENSE` f
 
 ## Final Words
 
-We're committed to the ongoing development of FurRealBot and its quest for truth in the social media landscape. Thank you for your interest and support!
+We're committed to the ongoing development of RealityCheck and its mission for more truth in the social media landscape. Thank you for your interest and support! If you know how to run a goFundMe or patreon to pay for hosting and API access, reach out please :)
