@@ -1,8 +1,14 @@
 # The RealityCheckBot - A Fact-Checking Reddit Bot
 
-Project's aim is to bring a bit more context to comment threads of social media. Invoking `/RealityCheck` (or `/RealityCheck additional claim here`) will submit the parent comment or post to RealityCheck where it'll be broken down into a list of logical "claims" that can be individually validated, via fact-checking services online, and posted in an organized reply with links to relavant articles, sites etc.  
+Project's aim is to bring a bit more context to comment threads of social media. Leveraging GPT's AI senitiment analysis capabiliites eases the difficult work of matching what someone is trying to say with the string that represents their words in a comment. Natural Languague processing advancements allow us to distill a comments sentiment down to a list of claims. We can expound on those claims by finding related claims (expanding context), then using known and trusted fact-checking tools available online we can try and validate those claims and report any and all source references that may add to a claims justification. 
 
-## Getting Started
+## Invoking /RealityCheckBot
+
+To invoke the bot, simply reply to a post or comment with:
+  1. `/RealityCheck` or any one of the configured triggers (e.g. /RealityCheckBot, /forReal, /furReel... see config.ini)
+  2. `/RealityCheck additional claim here` if you care to attempt to summarize the claim your self. In this case both the original and bot submiission claims will be researched, with priorty/emphasis given to the original. 
+
+## Getting Started with Local Development
 
 To get started with RealityCheckBot, follow these steps:
 
