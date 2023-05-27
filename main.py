@@ -231,10 +231,10 @@ class RealityCheckBot:
   def generate_footer(self):
     return (
       "  \n  \n***  \n  \n###### Beep boop! I'm a bot! RealityCheck, here to help combat disinformation on social media by bringing more context to the conversation auto-magically via AI tools and some elbow grease!  \n"
-      "###### I do my best to extract what appear to be fact-checkable 'claims' from regular comments and posts using OpenAI's GPT-4. These claims are then sent to the ClaimBuster API for analysis, and finally, processed and summarized by yours truly.  \n"
+      "###### I do my best to extract what appear to be fact-checkable 'claims' from submitted comments and posts using OpenAI's GPT-4 for sentiment analysis. These claims are then sent to the ClaimBuster API for analysis, and finally, processed and summarized by yours truly.  \n"
       "###### Note: Please read and understand the 'claims' carefully, as they may not match the original comments intent. They are meant as a tool to expand the context and sourcing for the current conversation and not necessarily support one side of any argument over the other.  \n"
       "###### The provided truth ratings and justifications are based on public data and algorithms, and therefore may not be completely accurate or exhaustive.  \n"
-      "###### Remember to always cross-verify information and approach discussions with a critical mind and a grain of salt.  \n"
+      "###### Remember to always cross-verify information and approach discussions with both a critical mind and a grain of salt.  \n"
       "###### Please visit the RealityCheck project home (http://www.yeahwhateverruss.com), OpenAi ChatGPT: https://openai.com/product/chatgpt,  the ClaimBuster web site : https://idir.uta.edu/claimbuster/ for more information or to help in the cause! Let's learn more together!"
     )
 
