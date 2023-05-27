@@ -1,6 +1,6 @@
 # The RealityCheckBot - A Fact-Checking Reddit Bot
 
-Project's aim is to bring a bit more context to comment threads of social media. Leveraging GPT's AI senitiment analysis capabiliites eases the difficult work of matching what someone is trying to say with the string that represents their words in a comment. Natural Languague processing advancements allow us to distill a comments sentiment down to a list of claims. We can expound on those claims by finding related claims (expanding context), then using known and trusted fact-checking tools available online we can try and validate those claims and report any and all source references that may add to a claims justification. 
+Project's aim is to bring a bit more context to comment threads of social media. Leveraging GPT's AI senitiment analysis capabiliites eases the difficult work of matching what someone is trying to say with the string that represents their words in a comment. Natural Languague processing advancements allow us to distill a comments sentiment down to a list of claims. We can expound on those claims by finding related claims (expanding context), then using known and trusted fact-checking tools available online we can try and validate those claims and report any and all source references that may add to a claims justification. Eventually posting a reply to the invoking comment with the details of the claims used, justifications found and genereal bot info. 
 
 ## Invoking /RealityCheckBot
 
