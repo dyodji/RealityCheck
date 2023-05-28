@@ -7,7 +7,7 @@ Project's aim is to bring a bit more context to comment threads of social media.
 
 ## Invoking /RealityCheckBot
 
-To invoke the bot, as a logged in user on Reddit, reply to a post or comment with:
+To invoke the bot, as a logged in user on Reddit, reply to a post or comment within a list of configured subReddits (see config.ini) with:
   1. `/RealityCheck` or any one of the configured triggers (e.g. /RealityCheckBot, /forReal, /furReel... see config.ini)
   2. `/RealityCheck additional claim here` if you care to attempt to summarize the claim yourself. To remain unbias, both the original and summary claims will be researched, with priorty/emphasis given to the original.
 
