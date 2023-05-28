@@ -15,7 +15,7 @@ The bot will auto reply, to the invoking comment(question: should it be to the p
 
 ## Getting Started with Local Development
 
-To get started with RealityCheckBot, follow these steps:
+Currently set up to run as a Repl on Repl.it, there's no reason it can't run locally:
 
 1. Ensure you have a suitable version of Python installed (3.8 or newer is recommended).
 
